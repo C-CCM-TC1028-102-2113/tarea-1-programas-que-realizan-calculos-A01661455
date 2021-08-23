@@ -6,7 +6,7 @@ def main():
 m=float(input())
 
 cm=((m*60)*5.7)/10
-cm=round(cm,1)
+cm=round(cm,2)
 
 print('Centímetros recorridos: ', cm)
 
