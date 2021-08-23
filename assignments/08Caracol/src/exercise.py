@@ -4,3 +4,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+    print('Dame los minutos: ')
+m=float(input())
+
+cm=((m*60)*5.7)/10
+
+print('Centímetros recorridos: ', cm)
