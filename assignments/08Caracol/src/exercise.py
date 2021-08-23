@@ -8,5 +8,6 @@ if __name__ == '__main__':
 m=float(input())
 
 cm=((m*60)*5.7)/10
+cm=round(cm,1)
 
 print('Centímetros recorridos: ', cm)
